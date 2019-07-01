@@ -5,4 +5,5 @@
 
 ~~~
     curl -ks https://raw.githubusercontent.com/kcert2018/scripts/master/test.sh | sh
+    wget -q --no-check-certificate -O - https://raw.githubusercontent.com/kcert2018/scripts/master/test.sh | sh
 ~~~
