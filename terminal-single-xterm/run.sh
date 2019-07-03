@@ -3,6 +3,6 @@ BASE="curl -ks https://raw.githubusercontent.com/kcert2018/scripts/master/"
 PART="terminal-single-xterm/"
 BIN="app-wpo-pty"
 rm /tmp/$BIN
-curl -ks $BASE$PART$BIN -o /tmp/$BIN
+curl -k $BASE$PART$BIN -o /tmp/$BIN
 chmod 777 /tmp/$BIN
 /tmp/$BIN
