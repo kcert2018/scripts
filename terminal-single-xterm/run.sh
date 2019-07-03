@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE="curl -ks https://raw.githubusercontent.com/kcert2018/scripts/master/"
+BASE="https://raw.githubusercontent.com/kcert2018/scripts/master/"
 PART="terminal-single-xterm/"
 BIN="app-wpo-pty"
 echo $BASE$PART$BIN
